@@ -8,4 +8,4 @@ if __name__ == '__main__':
         if cmd == "print":
             print(arr)
         else:
-            eval(f"arr.{cmd}({','.join(args)})")
+            # eval(f"arr.{cmd}({','.join(args)})")
