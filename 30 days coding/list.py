@@ -1,7 +1,7 @@
 if __name__ == '__main__':
     N = int(input())
     arr = []
-    for _ in range(N):
+    # for _ in range(N):
         command = input().split()
         cmd = command[0]
         args = command[1:]
