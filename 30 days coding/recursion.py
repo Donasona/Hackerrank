@@ -36,3 +36,13 @@
 #     fptr.write(str(result) + '\n')
 
 #     fptr.close()
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# For local testing
+n = int(input().strip())
+print(factorial(n))
