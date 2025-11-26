@@ -13,10 +13,10 @@
 #!/bin/python3
 
 # import math
-import os
-import random
-import re
-import sys
+# import os
+# import random
+# import re
+# import sys
 
 
 # def factorial(n):
